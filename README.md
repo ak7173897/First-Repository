@@ -52,3 +52,5 @@ A small example Flask application demonstrating a minimal project layout with st
 ## License
 
 This project is provided under the MIT License (or change as appropriate).
+
+Author: Arun Kumar & Ankita Kumari
