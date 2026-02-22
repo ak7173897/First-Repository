@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h1 class="mb-3">Interactive Echo</h1>
+      <form id="echoForm">
+        <div class="mb-3">
+          <label for="textInput" class="form-label">Enter text</label>
+          <input id="textInput" class="form-control" placeholder="Type something...">
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+
+      <div id="result" class="mt-4 p-3 border rounded" style="display:none">
+        <h5>Result</h5>
+        <p><strong>Input:</strong> <span id="resInput"></span></p>
+        <p><strong>Output:</strong> <span id="resOutput"></span></p>
+        <p><strong>Length:</strong> <span id="resLength"></span></p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
